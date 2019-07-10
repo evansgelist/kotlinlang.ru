@@ -47,7 +47,7 @@ Sample().foo() //создаёт экземпляр класса Sample и выз
 Функции так же могут быть вызваны при помощи инфиксной записи, при условии, что:
 
 <!--* They are member functions or [extension functions](extensions.html)-->
-* Они являются членом другой функции или [расширения](http://kotlinlang.ru/docs/reference/extensions.html)
+* Они являются членами класса или [расширения](http://kotlinlang.ru/docs/reference/extensions.html)
 <!--* They have a single parameter-->
 * В них используется один параметр
 <!--* They are marked with the `infix` keyword-->
